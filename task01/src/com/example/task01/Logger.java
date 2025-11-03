@@ -65,26 +65,26 @@ public class Logger {
     }
 
     public void info(String message) {
-        log(ImportantLevels.DEBUG, message);
+        log(ImportantLevels.INFO, message);
     }
 
     public void info(String pattern, Object... args) {
-        log(ImportantLevels.DEBUG, pattern, args);
+        log(ImportantLevels.INFO, pattern, args);
     }
 
     public void warning(String message) {
-        log(ImportantLevels.DEBUG, message);
+        log(ImportantLevels.WARNING, message);
     }
 
     public void warning(String pattern, Object... args) {
-        log(ImportantLevels.DEBUG, pattern, args);
+        log(ImportantLevels.WARNING, pattern, args);
     }
 
     public void error(String message) {
-        log(ImportantLevels.DEBUG, message);
+        log(ImportantLevels.ERROR, message);
     }
 
     public void error(String pattern, Object... args) {
-        log(ImportantLevels.DEBUG, pattern, args);
+        log(ImportantLevels.ERROR, pattern, args);
     }
 }
